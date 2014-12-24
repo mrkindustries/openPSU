@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-24 BZR 5093)-product   date = Tue 23 Dec 2014 05:08:36 PM ART
+Cmp-Mod V01 Created by Cvpcb (2014-08-24 BZR 5093)-product   date = Wed 24 Dec 2014 01:22:59 PM ART
 
 BeginCmp
 TimeStamp = /54939120;
@@ -17,7 +17,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54939141;
 Reference = C3;
-ValeurCmp = 47uF 100v;
+ValeurCmp = 47uF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
@@ -31,7 +31,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5493CEE9;
 Reference = C5;
-ValeurCmp = 200nF;
+ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
@@ -120,6 +120,20 @@ IdModule  = Wire_Pads:SolderWirePad_single_2-5mmDrill;
 EndCmp
 
 BeginCmp
+TimeStamp = /549B5D4A;
+Reference = CONN5;
+ValeurCmp = SHUNT-;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /549B6130;
+Reference = CONN6;
+ValeurCmp = SHUNT+;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
+EndCmp
+
+BeginCmp
 TimeStamp = /549409B0;
 Reference = CONN7;
 ValeurCmp = C;
@@ -138,6 +152,20 @@ TimeStamp = /54940BF4;
 Reference = CONN9;
 ValeurCmp = E;
 IdModule  = Wire_Pads:SolderWirePad_single_2mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A57DE;
+Reference = CONN_LED1;
+ValeurCmp = H;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A5B51;
+Reference = CONN_LED2;
+ValeurCmp = L;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
 EndCmp
 
 BeginCmp
@@ -185,7 +213,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54967DC6;
 Reference = D7;
-ValeurCmp = ZENER;
+ValeurCmp = 6.8v ZENER;
 IdModule  = Transistors_SMD:sot23;
 EndCmp
 
@@ -206,7 +234,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5493F823;
 Reference = D11;
-ValeurCmp = 1N4001;
+ValeurCmp = SS1200-LTP;
 IdModule  = Diodes_SMD:Diode-SMA_Standard;
 EndCmp
 
@@ -227,7 +255,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54968FB4;
 Reference = D14;
-ValeurCmp = ZENER;
+ValeurCmp = 6.8v ZENER;
 IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
@@ -458,7 +486,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54938E0E;
 Reference = R22;
-ValeurCmp = 4.7k 1/4W;
+ValeurCmp = 1k 1/4W;
 IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
