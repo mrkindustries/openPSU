@@ -1,0 +1,137 @@
+Source:,/home/marcos/electronica/Mrk industries/devs_internos/openPSU/hardware/design/fuente.sch
+Date:,Wed 24 Dec 2014 12:51:30 PM ART
+Tool:,Eeschema (2014-08-24 BZR 5093)-product
+Component Count:,80
+
+Individual Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,mfg#
+,,C1,10000uF 50v,device:C,Condensateur non polarise,Capacitors_ThroughHole:Capacitor30x51RM10,,SLPX103M050E7P3
+,,C10,100nF,device:C,Condensateur non polarise,Capacitors_SMD:C_0805,,
+,,C11,10uF,device:C,Condensateur non polarise,Capacitors_SMD:C_0805,,GRM21BR71A106MA73L
+,,C12,100nF,device:C,Condensateur non polarise,Capacitors_SMD:C_0805,,
+,,C13,100nF,device:C,Condensateur non polarise,Capacitors_SMD:C_0805,,
+,,C2,47uF 100v,device:C,Condensateur non polarise,Capacitors_ThroughHole:Capacitor10x16RM5,,UPW2A470MPD
+,,C3,47uF,device:C,Condensateur non polarise,Capacitors_SMD:C_0805,,CL21A476MQCLRNC
+,,C4,100nF,device:C,Condensateur non polarise,Capacitors_SMD:C_0805,,CL21B104KBCNNNC
+,,C5,100nF,device:C,Condensateur non polarise,Capacitors_SMD:C_0805,,
+,,C6,100pF,device:C,Condensateur non polarise,Capacitors_SMD:C_0805,,C0805C101J5GACTU
+,,C7,47uF 100v,device:C,Condensateur non polarise,Capacitors_ThroughHole:Capacitor10x16RM5,,UPW2A470MPD
+,,C8,330pF,device:C,Condensateur non polarise,Capacitors_SMD:C_0805,,C0805C331J5GACTU
+,,C9,100pF,device:C,Condensateur non polarise,Capacitors_SMD:C_0805,,C0805C101J5GACTU
+,,CONN1,AC,conn:CONN_01X01,,Wire_Pads:SolderWirePad_single_2mmDrill,,
+,,CONN2,AC,conn:CONN_01X01,,Wire_Pads:SolderWirePad_single_2mmDrill,,
+,,CONN3,V+,conn:CONN_01X01,,Wire_Pads:SolderWirePad_single_2-5mmDrill,,
+,,CONN4,GND,conn:CONN_01X01,,Wire_Pads:SolderWirePad_single_2-5mmDrill,,
+,,CONN7,C,conn:CONN_01X01,,Wire_Pads:SolderWirePad_single_2mmDrill,,
+,,CONN8,B,conn:CONN_01X01,,Wire_Pads:SolderWirePad_single_2mmDrill,,
+,,CONN9,E,conn:CONN_01X01,,Wire_Pads:SolderWirePad_single_2mmDrill,,
+,,CONN_LED1,H,conn:CONN_01X01,,Socket_Strips:Socket_Strip_Straight_1x01,,
+,,CONN_LED2,L,conn:CONN_01X01,,Socket_Strips:Socket_Strip_Straight_1x01,,
+,,D1,S3G-13-F,device:DIODE,Diode simple,Diodes_SMD:Diode-SMC_Standard,,S3G-13-F
+,,D10,1N4148,device:DIODE,Diode simple,Mrk:SOD-123,,1N4148W-7-F
+,,D11,SS1200-LTP,device:DIODE,Diode simple,Diodes_SMD:Diode-SMA_Standard,,SS1200-LTP
+,,D12,OVERCURRENT,device:LED,,LEDs:LED-0805,,LH R974-LP-1
+,,D13,1N4148,device:DIODE,Diode simple,Mrk:SOD-123,,1N4148W-7-F
+,,D14,6.8v ZENER,device:ZENER,Diode zener,SMD_Packages:SOT-23,,BZX84C6V8LT1G
+,,D15,TVS,device:TVS,Transient voltage suppressor diode (bi-directional),Diodes_SMD:Diode-SMB_Standard,,1SMB30AT3G
+,,D2,S3G-13-F,device:DIODE,Diode simple,Diodes_SMD:Diode-SMC_Standard,,S3G-13-F
+,,D3,S3G-13-F,device:DIODE,Diode simple,Diodes_SMD:Diode-SMC_Standard,,S3G-13-F
+,,D4,S3G-13-F,device:DIODE,Diode simple,Diodes_SMD:Diode-SMC_Standard,,S3G-13-F
+,,D5,1N4148,device:DIODE,Diode simple,Mrk:SOD-123,,1N4148W-7-F
+,,D6,1N4148,device:DIODE,Diode simple,Mrk:SOD-123,,1N4148W-7-F
+,,D7,6.8v ZENER,device:ZENER,Diode zener,Transistors_SMD:sot23,,BZX84C6V8LT1G
+,,D9,1N4148,device:DIODE,Diode simple,Mrk:SOD-123,,
+,,F1,10A,device:FUSE,,Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_universal_Type-III,,01110501Z
+,,P1,10k,device:POT,Potentionmetre,,,
+,,P2,10k,device:POT,Potentionmetre,,,
+,,POT_I1,H,conn:CONN_01X01,,Socket_Strips:Socket_Strip_Straight_1x01,,
+,,POT_I2,W,conn:CONN_01X01,,Socket_Strips:Socket_Strip_Straight_1x01,,
+,,POT_I3,L,conn:CONN_01X01,,Socket_Strips:Socket_Strip_Straight_1x01,,
+,,POT_V1,H,conn:CONN_01X01,,Socket_Strips:Socket_Strip_Straight_1x01,,
+,,POT_V2,W,conn:CONN_01X01,,Socket_Strips:Socket_Strip_Straight_1x01,,
+,,POT_V3,L,conn:CONN_01X01,,Socket_Strips:Socket_Strip_Straight_1x01,,
+,,Q1,BC846B,device:NPN,,SMD_Packages:SOT-23,,"BC846B,215"
+,,Q2,BCP54,device:NPN,,SMD_Packages:SOT-223,,BCP54
+,,Q3,BC857A,device:PNP,,SMD_Packages:SOT-23,,BC857A-TP
+,,Q4,2N3055,device:NPN,,Discret:TO3,,2N3055G
+,,R1,2.2k 1W,device:R,Resistance,Resistors_SMD:R_2512,,MCR100JZHJ222
+,,R10,4.7R 1W,device:R,Resistance,Resistors_SMD:R_2010,,CRM2010-JW-4R7ELF
+,,R11,27k 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,ERJ-6ENF2702V
+,,R12,56k 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,CRCW080556K0FKEA
+,,R13,33k 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,RC0805FR-0733KL
+,,R14,1.5k 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,RC0805FR-071K5L
+,,R15,1k 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,RC0805FR-071KL
+,,R16,1k 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,RC0805FR-071KL
+,,R17,180R 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,RC0805FR-07180RL
+,,R18,33k 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,RC0805FR-0733KL
+,,R19,2.2k 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,RC0805FR-072K2L
+,,R2,82R 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,RC0805FR-0782RL
+,,R20,10k 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,RC0805FR-0710KL
+,,R21,10k 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,RC0805FR-0710KL
+,,R22,1k 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,
+,,R23,820R 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,RC0805FR-07820RL
+,,R24,4.7R 1W,device:R,Resistance,Resistors_SMD:R_2010,,CRM2010-JW-4R7ELF
+,,R25,4.7R 1W,device:R,Resistance,Resistors_SMD:R_2010,,CRM2010-JW-4R7ELF
+,,R26,4.7R 1W,device:R,Resistance,Resistors_SMD:R_2010,,CRM2010-JW-4R7ELF
+,,R27,4.7R 1W,device:R,Resistance,Resistors_SMD:R_2010,,CRM2010-JW-4R7ELF
+,,R28,4.7R 1W,device:R,Resistance,Resistors_SMD:R_2010,,CRM2010-JW-4R7ELF
+,,R29,4.7R 1W,device:R,Resistance,Resistors_SMD:R_2010,,CRM2010-JW-4R7ELF
+,,R3,220R 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,RC0805FR-07220RL
+,,R30,4.7R 1W,device:R,Resistance,Resistors_SMD:R_2010,,CRM2010-JW-4R7ELF
+,,R31,4.7R 1W,device:R,Resistance,Resistors_SMD:R_2010,,CRM2010-JW-4R7ELF
+,,R7,4.7R 1W,device:R,Resistance,Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L36mm-W11mm-H10mm-p45mm,,CRM2010-JW-4R7ELF
+,,R8,27k 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,ERJ-6ENF2702V
+,,R9,2.2k 1/4W,device:R,Resistance,Resistors_SMD:R_0805,,RC0805FR-072K2L
+,,U1,ADR02ARZ,regul:MAX874,Voltage reference,SMD_Packages:SOIC-8-W,,ADR02ARZ-REEL7
+,,U2,MC34071,linear:TL081,Op amp.,SMD_Packages:SOIC-8-W,,MC34071ADG
+,,U3,MC34071,linear:TL081,Op amp.,SMD_Packages:SOIC-8-W,,MC34071ADG
+
+
+
+Collated Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,mfg#
+1,1,C1,10000uF 50v,device:C,Capacitors_ThroughHole:Capacitor30x51RM10,,SLPX103M050E7P3
+2,5,"C10, C12, C13, C4, C5",100nF,device:C,Capacitors_SMD:C_0805,,CL21B104KBCNNNC
+3,1,C11,10uF,device:C,Capacitors_SMD:C_0805,,GRM21BR71A106MA73L
+4,2,"C2, C7",47uF 100v,device:C,Capacitors_ThroughHole:Capacitor10x16RM5,,UPW2A470MPD
+5,1,C3,47uF,device:C,Capacitors_SMD:C_0805,,CL21A476MQCLRNC
+6,2,"C6, C9",100pF,device:C,Capacitors_SMD:C_0805,,C0805C101J5GACTU
+7,1,C8,330pF,device:C,Capacitors_SMD:C_0805,,C0805C331J5GACTU
+8,2,"CONN1, CONN2",AC,conn:CONN_01X01,Wire_Pads:SolderWirePad_single_2mmDrill,,
+9,1,CONN3,V+,conn:CONN_01X01,Wire_Pads:SolderWirePad_single_2-5mmDrill,,
+10,1,CONN4,GND,conn:CONN_01X01,Wire_Pads:SolderWirePad_single_2-5mmDrill,,
+11,1,CONN7,C,conn:CONN_01X01,Wire_Pads:SolderWirePad_single_2mmDrill,,
+12,1,CONN8,B,conn:CONN_01X01,Wire_Pads:SolderWirePad_single_2mmDrill,,
+13,1,CONN9,E,conn:CONN_01X01,Wire_Pads:SolderWirePad_single_2mmDrill,,
+14,3,"CONN_LED1, POT_I1, POT_V1",H,conn:CONN_01X01,Socket_Strips:Socket_Strip_Straight_1x01,,
+15,3,"CONN_LED2, POT_I3, POT_V3",L,conn:CONN_01X01,Socket_Strips:Socket_Strip_Straight_1x01,,
+16,4,"D1, D2, D3, D4",S3G-13-F,device:DIODE,Diodes_SMD:Diode-SMC_Standard,,S3G-13-F
+17,5,"D10, D13, D5, D6, D9",1N4148,device:DIODE,Mrk:SOD-123,,1N4148W-7-F
+18,1,D11,SS1200-LTP,device:DIODE,Diodes_SMD:Diode-SMA_Standard,,SS1200-LTP
+19,1,D12,OVERCURRENT,device:LED,LEDs:LED-0805,,LH R974-LP-1
+20,2,"D14, D7",6.8v ZENER,device:ZENER,SMD_Packages:SOT-23,,BZX84C6V8LT1G
+21,1,D15,TVS,device:TVS,Diodes_SMD:Diode-SMB_Standard,,1SMB30AT3G
+22,1,F1,10A,device:FUSE,Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_universal_Type-III,,01110501Z
+23,2,"P1, P2",10k,device:POT,,,
+24,2,"POT_I2, POT_V2",W,conn:CONN_01X01,Socket_Strips:Socket_Strip_Straight_1x01,,
+25,1,Q1,BC846B,device:NPN,SMD_Packages:SOT-23,,"BC846B,215"
+26,1,Q2,BCP54,device:NPN,SMD_Packages:SOT-223,,BCP54
+27,1,Q3,BC857A,device:PNP,SMD_Packages:SOT-23,,BC857A-TP
+28,1,Q4,2N3055,device:NPN,Discret:TO3,,2N3055G
+29,1,R1,2.2k 1W,device:R,Resistors_SMD:R_2512,,MCR100JZHJ222
+30,10,"R10, R24, R25, R26, R27, R28, R29, R30, R31, R7",4.7R 1W,device:R,Resistors_SMD:R_2010,,CRM2010-JW-4R7ELF
+31,2,"R11, R8",27k 1/4W,device:R,Resistors_SMD:R_0805,,ERJ-6ENF2702V
+32,1,R12,56k 1/4W,device:R,Resistors_SMD:R_0805,,CRCW080556K0FKEA
+33,2,"R13, R18",33k 1/4W,device:R,Resistors_SMD:R_0805,,RC0805FR-0733KL
+34,1,R14,1.5k 1/4W,device:R,Resistors_SMD:R_0805,,RC0805FR-071K5L
+35,3,"R15, R16, R22",1k 1/4W,device:R,Resistors_SMD:R_0805,,RC0805FR-071KL
+36,1,R17,180R 1/4W,device:R,Resistors_SMD:R_0805,,RC0805FR-07180RL
+37,2,"R19, R9",2.2k 1/4W,device:R,Resistors_SMD:R_0805,,RC0805FR-072K2L
+38,1,R2,82R 1/4W,device:R,Resistors_SMD:R_0805,,RC0805FR-0782RL
+39,2,"R20, R21",10k 1/4W,device:R,Resistors_SMD:R_0805,,RC0805FR-0710KL
+40,1,R23,820R 1/4W,device:R,Resistors_SMD:R_0805,,RC0805FR-07820RL
+41,1,R3,220R 1/4W,device:R,Resistors_SMD:R_0805,,RC0805FR-07220RL
+42,1,U1,ADR02ARZ,regul:MAX874,SMD_Packages:SOIC-8-W,,ADR02ARZ-REEL7
+43,2,"U2, U3",MC34071,linear:TL081,SMD_Packages:SOIC-8-W,,MC34071ADG
