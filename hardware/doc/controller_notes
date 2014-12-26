@@ -1,0 +1,17 @@
+# Microcontroller
+
+* Arduino: is a fairly cheap and popular platform, but I never used it. Also, the ADC for current measurment does not have enough resolution.
+* MSP430: never used it
+* EFM32: it has 12 bit ADC, single ended and differential mode supported. USB. Temperature sensor. Its quite a reasonable choice.
+* STM32: Its overkill, so is the EFM32, but many people is familiar with these. Not sure if it has differential ADCs
+
+# Wishlist
+
+* Digipots
+* 12 bit ADC for current shunt, supply output and transformer output
+* 3x 7 segment digits for voltage and 3x for current
+* display power (VxI)?
+* USB?
+* WIFI? (ESP8266) How to setup essid/keys?
+* Datalogging
+* Voltage control over tty/IP

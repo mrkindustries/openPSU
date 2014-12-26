@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-24 BZR 5093)-product   date = Wed 24 Dec 2014 01:22:59 PM ART
+Cmp-Mod V01 Created by Cvpcb (2014-08-24 BZR 5093)-product   date = Fri 26 Dec 2014 12:00:06 PM ART
 
 BeginCmp
 TimeStamp = /54939120;
@@ -218,6 +218,13 @@ IdModule  = Transistors_SMD:sot23;
 EndCmp
 
 BeginCmp
+TimeStamp = /549D7CC0;
+Reference = D8;
+ValeurCmp = BLOWN;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /5493B9BA;
 Reference = D9;
 ValeurCmp = 1N4148;
@@ -285,6 +292,13 @@ TimeStamp = /5493A36B;
 Reference = P2;
 ValeurCmp = 10k;
 IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /549B91AD;
+Reference = P3;
+ValeurCmp = Monitor;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x03;
 EndCmp
 
 BeginCmp
@@ -375,6 +389,13 @@ BeginCmp
 TimeStamp = /54938DBD;
 Reference = R3;
 ValeurCmp = 220R 1/4W;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /549D8112;
+Reference = R4;
+ValeurCmp = 1k 1/4W;
 IdModule  = Resistors_SMD:R_0805;
 EndCmp
 

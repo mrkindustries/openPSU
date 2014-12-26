@@ -3,7 +3,7 @@ openPSU
 
 ## Open source lab power supply unit
 
-openPSU is a 0-30V, 0-3A linear power supply unit. There are similar schematics and layout files all over the internet, but few of them come with proper design files and project documentation.
+openPSU is a *0-30V, 0-3A* linear power supply unit. There are similar schematics and layout files all over the internet, but few of them come with proper design files and project documentation.
 
 A linear power supply has less HF noise than a switching supply and has a better response to quick load changes. And most important, it is so simple that you can repair it yourself. I've been using the same one for over 10 years.
 
@@ -24,4 +24,8 @@ Download the schematic
 
 [openPSU_schematic.pdf](/hardware/doc/openPSU_schematic.pdf?raw=true)
 
-Warning: untested until the first prototype arrives
+Order the BOM directly from Digikey, no parts uploading required.
+
+http://www.digikey.com/short/747hq8
+
+**Warning:** untested until the first prototype arrives
