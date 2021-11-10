@@ -18,7 +18,7 @@ It is desgned to be connected to a transformer, fine/coarse/current pots and tho
 ![Alt text](/hardware/doc/images/3d_back.png?raw=true "3D view")
 
 This board was designed using kicad, you can find the CAD files in the /hardware/design folder
-http://www.kicad-pcb.org
+http://www.kicad.org
 
 Download the schematic
 
